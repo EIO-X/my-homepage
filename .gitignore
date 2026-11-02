@@ -1,0 +1,21 @@
+# 系统与编辑器产生的垃圾文件
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# 依赖
+node_modules/
+__pycache__/
+*.pyc
+
+# 环境变量与密钥，绝对不要提交
+.env
+.env.local
+*.key
+*.pem
+
+# 构建产物
+dist/
+build/

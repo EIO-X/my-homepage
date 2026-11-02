@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EIO · 个人主页</title>
+<style>
+  :root {
+    --bg: #faf9f6;
+    --card: #ffffff;
+    --text: #1f1f1d;
+    --muted: #6b6a66;
+    --line: #e6e3dc;
+    --accent: #185fa5;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, "Segoe UI", "Microsoft YaHei", sans-serif;
+    line-height: 1.75;
+    padding: 0 24px;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 72px 0 64px; }
+  header { padding-bottom: 36px; border-bottom: 1px solid var(--line); }
+  .avatar {
+    width: 64px; height: 64px; border-radius: 50%;
+    background: var(--accent); color: #fff;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 26px; font-weight: 500; margin-bottom: 20px;
+  }
+  h1 { font-size: 26px; font-weight: 600; letter-spacing: 0.5px; }
+  .tagline { color: var(--muted); font-size: 15px; margin-top: 6px; }
+  section { padding: 32px 0; border-bottom: 1px solid var(--line); }
+  section:last-of-type { border-bottom: none; }
+  h2 {
+    font-size: 13px; font-weight: 500; letter-spacing: 2px;
+    color: var(--muted); text-transform: uppercase; margin-bottom: 16px;
+  }
+  p { font-size: 15px; }
+  .tags { display: flex; flex-wrap: wrap; gap: 8px; }
+  .tag {
+    font-size: 13px; padding: 4px 12px; border-radius: 999px;
+    background: #eef3f9; color: var(--accent); border: 1px solid #d8e4f2;
+  }
+  .card {
+    background: var(--card); border: 1px solid var(--line);
+    border-radius: 10px; padding: 18px 20px; margin-bottom: 12px;
+  }
+  .card h3 { font-size: 15px; font-weight: 500; }
+  .card p { font-size: 14px; color: var(--muted); margin-top: 4px; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .links { display: flex; flex-wrap: wrap; gap: 20px; font-size: 14px; }
+  footer {
+    padding-top: 28px; font-size: 13px; color: var(--muted); text-align: center;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="avatar">E</div>
+    <h1>EIO</h1>
+    <p class="tagline">正在学习把想法变成能跑的代码。</p>
+  </header>
+
+  <section>
+    <h2>关于我</h2>
+    <p>这里写两三句介绍：你目前在做什么、关注什么方向、想认识什么样的人。写具体一点比写"热爱技术"有用得多。</p>
+  </section>
+
+  <section>
+    <h2>会一点的东西</h2>
+    <div class="tags">
+      <span class="tag">HTML / CSS</span>
+      <span class="tag">Git</span>
+      <span class="tag">Python</span>
+      <span class="tag">还在学</span>
+    </div>
+  </section>
+
+  <section>
+    <h2>在做的事</h2>
+    <div class="card">
+      <h3>个人主页</h3>
+      <p>你正在看的这个页面。第一个从零提交到 GitHub 的项目。</p>
+    </div>
+    <div class="card">
+      <h3>下一个项目</h3>
+      <p>占位。等你想好了就换成真的，加一个链接指过去。</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>联系我</h2>
+    <div class="links">
+      <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+      <a href="mailto:825064645@qq.com">Email</a>
+    </div>
+  </section>
+
+  <footer>用 Git 提交的每一个版本，都是走过路的证据。</footer>
+
+</div>
+</body>
+</html>
