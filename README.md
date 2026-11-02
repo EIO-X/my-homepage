@@ -23,5 +23,5 @@ python -m http.server 8000
 ## 待办
 
 - [ ] 换成自己的名字、简介和联系方式
-- [ ] 上线到 GitHub Pages
+- [x] 上线到 GitHub Pages
 - [ ] 加上第二个项目卡片
